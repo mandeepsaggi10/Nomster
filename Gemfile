@@ -74,11 +74,13 @@ gem 'devise'
 
 gem 'will_paginate'
 
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 
+gem "geocoder"
 
-
+gem "figaro"
 
 
 end
